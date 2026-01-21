@@ -1,0 +1,84 @@
+/* SECAO LOGIN*/
+.secao-login {
+  width: 100%;
+  height: 100vh;
+}
+.secao-login,
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titulo-login {
+  font-size: 16px;
+  color: var(--chocolate-escuro);
+  margin-bottom: 20px;
+}
+.login,
+.dados-login input {
+  border: solid 1px var(--chocolate);
+}
+
+.login {
+  width: 400px;
+  height: 500px;
+  background-color: var(--creme);
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.dados-login {
+  padding-bottom: 20px;
+}
+.dados-login input {
+  font-size: 16px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.btn-login {
+  background-color: var(--rosa-escuro);
+  border: solid 1px var(--rosa_claro);
+  border-radius: 5px;
+  padding: 10px 0;
+  text-align: center;
+  width: 300px;
+
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.btn-esqueci-senha {
+  border: none;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  width: 300px;
+  background-color: var(--creme);
+}
+
+.btn-login a:link,
+.btn-login :visited {
+  color: var(--chocolate-escuro);
+}
+.btn-login a:active,
+.btn-login a:hover {
+  color: var(--branco);
+}
+
+.btn-esqueci-senha a:link,
+.btn-esqueci-senha a:visited {
+  color: var(--cinza-escuro);
+}
+
+.btn-esqueci-senha a:active,
+.btn-esqueci-senha a:hover {
+  color: var(--rosa-escuro);
+}

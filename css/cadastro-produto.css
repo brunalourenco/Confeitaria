@@ -1,0 +1,136 @@
+img {
+  width: 25px;
+  height: 25px;
+}
+
+.secao-cadastro-produto {
+  padding: 40px 0;
+}
+
+.form-cadastro-produtos {
+  background: var(--branco);
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-cadastro-produtos h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: var(--laranja-medio);
+}
+
+.container-dados-produto {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.box-dados,
+.box-foto {
+  flex: 1;
+  min-width: 260px;
+}
+
+.box-dados div,
+.box-foto div,
+.box-dados-valores div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: var(--cinza-escuro);
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--cinza-claro);
+  font-size: 14px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: var(--rosa-escuro);
+}
+
+textarea {
+  resize: vertical;
+}
+
+.container-valores {
+  display: flex;
+  margin-top: 25px;
+  border: 1px solid var(--cinza-claro);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container-valores legend {
+  padding: 0 10px;
+  font-weight: bold;
+  color: var(--laranja-medio);
+}
+
+.box-dados-valores {
+  display: flex;
+  gap: 20px;
+}
+
+.box-acao {
+  margin-top: 15px;
+}
+
+.box-acao button {
+  background: var(--creme);
+  border: 1px solid var(--chocolate);
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.box-acao button img {
+  width: 20px;
+}
+
+.box-acao button:hover {
+  background: var(--rosa-escuro);
+  color: var(--branco);
+}
+
+.btn-salvar {
+  margin-top: 25px;
+  width: 100%;
+  background: var(--creme);
+  color: var(--chocolate-escuro);
+  border: solid 1px var(--chocolate);
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-salvar img {
+  width: 20px;
+}
+
+.btn-salvar:hover {
+  background: var(--rosa-escuro);
+  color: var(--branco);
+}

@@ -1,0 +1,77 @@
+.secao-doces,
+.secao-pao-de-mel {
+  background-color: var(--creme);
+}
+
+.secao-bolos-tortas {
+  padding-top: 80px;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card,
+.box-cardapio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-cardapio {
+  justify-content: space-between;
+  margin-top: 20px;
+  box-shadow: 0 0 1px 0.5px var(--chocolate);
+  border-radius: 10px;
+}
+
+.box-cardapio img {
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+}
+
+.box-cardapio a {
+  background-color: var(--creme);
+  border: solid 1px var(--chocolate);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 30px;
+}
+
+.card {
+  justify-content: center;
+}
+
+.resumo-card {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  gap: 20px;
+  padding-left: 40px;
+}
+.descricao h2 {
+  font-size: 16px;
+  color: var(--laranja-medio);
+  margin-bottom: 20px;
+}
+
+.descricao h3,
+.valores h3 {
+  color: var(--chocolate-medio);
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.descricao p,
+.valores p,
+.valores ul li {
+  font-size: 14px;
+  color: var(--cinza-medio);
+  line-height: 1.4;
+}
